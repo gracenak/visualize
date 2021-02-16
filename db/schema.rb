@@ -25,9 +25,10 @@ ActiveRecord::Schema.define(version: 2021_02_16_005705) do
     t.string "title"
     t.string "description"
     t.string "image_url"
-    t.integer "user_id"
+    t.bigint "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_visions_on_user_id"
   end
 
 end
