@@ -68,7 +68,7 @@ The application we will create during the project build series is a "Syllabus Sh
     - Build relevant routes for MVP (ex: `index` and `create`)
     - Visit `http://localhost:3000/api/v1/<your_resource_name>` to see JSON data
 
-- [] 3. Fast JSON API Serializer
+- [x] 3. Fast JSON API Serializer
     - Add `gem 'fast_jsonapi'` to your Rails project's Gemfile and run `bundle install`
     - Create Serializer classes
       - `rails g serializer <your_resource_name>`
