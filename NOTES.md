@@ -39,14 +39,14 @@ The application we will create during the project build series is a "Syllabus Sh
     - Migrations
     - Model classes
     - Associations
-- [] 9. Test your models and associations in the console
+- [X] 9. Test your models and associations in the console
     - Create some seed data
     - Adjust migrations as needed
 
 
 ### PART 2: Routes, Controllers, Serializers
 
-- [x] 1. Routes
+- [] 1. Routes
     - Implement _specific_ namespaced routes for _a_ controller **for MVP**
     - REMEMBER! We're _trying_ to build vertically.
 
@@ -63,12 +63,12 @@ The application we will create during the project build series is a "Syllabus Sh
     - Visit `http://localhost:3000/api/v1/<your_resource_name>` to see error
 
 
-- [x] 2. Controllers
+- [] 2. Controllers
     - In your console run: `rails g controller api/v1/<your controller_name>` (Make sure you capitalize and the first letter of the controller name!)
     - Build relevant routes for MVP (ex: `index` and `create`)
     - Visit `http://localhost:3000/api/v1/<your_resource_name>` to see JSON data
 
-- [x] 3. Fast JSON API Serializer
+- [] 3. Fast JSON API Serializer
     - Add `gem 'fast_jsonapi'` to your Rails project's Gemfile and run `bundle install`
     - Create Serializer classes
       - `rails g serializer <your_resource_name>`
@@ -101,7 +101,7 @@ The application we will create during the project build series is a "Syllabus Sh
         - To control the attributes displayed in the association view PART 2 notes on adding relationships
 
 
-- [x] 4. **TEST:** Confirm data at your Rails endpoints! (ex: `http://seeda.com/api/v1/syllabuses`)
+- [] 4. **TEST:** Confirm data at your Rails endpoints! (ex: `http://seeda.com/api/v1/syllabuses`)
 - [ ] 5. Build out your associated models using this same process. **REMEMBER: Focus on building vertically for MVP** this means only starting with 2 or 3 models before moving on to the frontend.
 
 
